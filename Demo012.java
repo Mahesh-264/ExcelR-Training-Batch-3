@@ -1,20 +1,26 @@
-import java.util.*;
-class DOG {
-    void display() {
-        System.out.println("DOG BARKS.");
+import java.util.Scanner;
+
+class CircleAreaDemo1 {
+    private double radius;
+
+    public CircleAreaDemo1(double radius) {
+        this.radius = radius;
+    }
+
+    void Area() {
+        double ca = Math.PI * Math.pow(radius, 2);
+        System.out.println("The circle area is: " + ca);
     }
 }
-class ChildDOG extends DOG {
-    @Override
-    void display() {
-        System.out.println("CHILD DOG ");
-    }
-}
-class Demo012 {
+
+public class Demo012 {
     public static void main(String[] args) {
-        DOG DOG = new DOG(); 
-        DOG ChildDOG = new ChildDOG();
-        DOG.display();
-        ChildDOG.display(); 
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the radius of the circle: ");
+        double r = sc.nextDouble();
+        sc.close();
+
+        CircleAreaDemo1 obj = new CircleAreaDemo1(r);
+        obj.Area();
     }
 }
