@@ -1,10 +1,16 @@
-import java.util.Scanner;
-class Demo019{
-    public static void main(String [] args){
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        System.out.println("Enter the number: "+a);
-        int rounded = (((a+2/5)/5)*5);
-        System.out.println("Rounded multiple of 5 is"+ rounded);
+public class Demo019b {
+    public static void main(String[] args) {
+        int num1 = 1;
+        int num2 = 2;
+        int sum = 0;
+
+        System.out.print("Fibonacci Sequence: " + num1 + ", " + num2);
+
+        for (int i = 3; i <= 10; i++) {
+            sum = num1 + num2;
+            num1 = num2;
+            num2 = sum;
+            System.out.print(", " + sum);
+        }
     }
 }
