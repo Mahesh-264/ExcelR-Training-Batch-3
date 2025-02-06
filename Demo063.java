@@ -6,4 +6,4 @@ public class Demo063 {
         int add = arr[0]+arr[arr.length-1];
                 System.out.println("Sum is: "+add);
         }
-}
+}  
