@@ -7,5 +7,5 @@ public class Demo067 {
                         System.out.println("The even elements in an array is"+arr[i]);
                 }
         }
-        }
+     }
 }
