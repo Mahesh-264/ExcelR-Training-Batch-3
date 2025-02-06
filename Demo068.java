@@ -10,4 +10,4 @@ public class Demo068 {
                     System.out.println("Even numbers are: "+count);
                 }
         }
-}
+} 
