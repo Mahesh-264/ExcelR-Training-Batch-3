@@ -1,4 +1,4 @@
-public class Demo064 {
+ public class Demo064 {
     public static void main(String[] args) {
         int[] arr = { 10, 20, 30, 40, 50 };
         arr[0]= arr[0] + arr[arr.length - 1];
