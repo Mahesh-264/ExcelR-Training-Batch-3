@@ -8,4 +8,4 @@ public class Demo069 {
                 }
                 System.out.println("Sum of all elements in array are "+sum);
         }
-}
+} 
