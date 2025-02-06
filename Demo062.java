@@ -7,5 +7,4 @@ public class Demo062 {
                                 + arr[1] + " last element is: " + arr[arr.length - 1]);
 
             }
-
         }
