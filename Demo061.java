@@ -9,7 +9,7 @@ public class Demo061 {
             }
             num++;
         }
-    }
+    } 
 
     public static boolean isPrime(int n) {
             if (n <= 1) {
