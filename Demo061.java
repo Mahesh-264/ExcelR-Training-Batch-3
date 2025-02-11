@@ -2,14 +2,14 @@ public class Demo061 {
     public static void main(String[] args) {
         int count = 0;
         int num = 2;
-        while (count < 10) {
+        while (count < 10) { 
             if (isPrime(num)) {
                 System.out.println(num);
                 count++;
             }
             num++;
         }
-    }
+    } 
 
     public static boolean isPrime(int n) {
             if (n <= 1) {
